@@ -1,0 +1,12 @@
+# What is Markdown?
+- Lightweight markup language with plain text formatting syntax
+- Can be converted into HTML/XHTML and other formats
+- It's main purpose is readability and ease of use
+
+<!--Headings -->
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
