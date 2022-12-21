@@ -60,3 +60,5 @@ var agesSet = Set(ages)
 print(agesSet) // [55, 23, 43, 21]
 ```
 
+## Hashable
+* A protocol that provides a **hashValue** to our object. **The hashValue** is used to compare two instances. 
