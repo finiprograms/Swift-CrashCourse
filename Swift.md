@@ -204,4 +204,91 @@ func getBrandonsOpinion(on phone: Phone){
 
     getBrandonsOpinion(on: .iphone11Pro)
 ```
-## Swit
+## Switch Statements
+* Used to perform different actions based on different conditions, often paired with an enum
+```swift
+enum Phone {
+    case iphone11Pro
+    case iphoneSE
+    case pixel
+    case nokia
+}
+
+func getBrandonsOpinion(on phone: Phone){
+  
+switch phone {
+    case .iphone11Pro:
+        print("This will be my next phone.")
+    case .iphoneSE:
+        print("I dislike this phone size. It makes design hard")
+    case .pixel:
+        print("Hardware is great, android is no no")
+    case .nokia:
+        print("Can't be broken. Classic.")
+    }
+
+getBrandonsOpinion(on: .iphoneSE)
+
+}
+
+let matchmakingRank = 23
+
+func determinePlayerLeague(from rank: Int) {
+    switch rank {
+    case 0:
+        print("Play the game to determine your league")
+    case 1..<50:
+        print("You are in BRONZE League")
+    case 50..<100:
+        print("You are in Silver League")
+    case 100..<200:
+        print("You are in GOLD League")
+    default:
+        print("You are in a league of your own.")
+    }
+}
+
+determinePlayerLeague(from: matchmakingRank)
+```
+## Operators
+* Allows you to check, change and combine values.
+```swift
+let valueOne = 55
+let valueTwo = 88
+
+let sum = valueOne + valueTwo
+        = valueOne - valueTwo
+        = valueOne * valueTwo
+        = valueOne % valueTwo //modulus=remainder
+
+let valueThree: Double = 85
+let valueFour: Double = 2
+
+let ans = valueThree / valueFour //Division must be done with a float or double
+
+    = Assignment
+    == Equal? Is this equal to that
+    != Not Equal? Bang
+}
+
+let valueOne = 12
+let valueTwo = 12
+
+if valueOne == valueTwo
+    print("They are equal")
+}
+
+let valueOne = 12
+let valueTwo = 1
+
+if valueOne != valueTwo
+    print("They are not equal")
+}
+
+var isDarkModeOn = true
+
+if !isDarkModeOn {
+    print("It's so bright in here")
+
+}
+```
